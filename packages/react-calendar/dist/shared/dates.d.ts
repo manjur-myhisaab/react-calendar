@@ -123,7 +123,11 @@ export declare function getValueRange(rangeType: RangeType, date1: Date, date2: 
  * @param {Date|string|number} date Date or a year as a string or as a number.
  * @returns {string} String labelling a century of a given date.
  */
-export declare function getCenturyLabel(locale: string | undefined, formatYear: ((locale: string | undefined, date: Date) => string) | undefined, date: Date): string;
+export declare function getCenturyLabel(
+  locale: string | undefined,
+  formatYear: ((locale: string | undefined, date: Date) => string) | undefined,
+  date: Date,
+): string;
 /**
  * Returns a string labelling a decade of a given date.
  * For example, for 2017 it will return 2011-2020.
@@ -133,7 +137,11 @@ export declare function getCenturyLabel(locale: string | undefined, formatYear: 
  * @param {Date|string|number} date Date or a year as a string or as a number.
  * @returns {string} String labelling a decade of a given date.
  */
-export declare function getDecadeLabel(locale: string | undefined, formatYear: ((locale: string | undefined, date: Date) => string) | undefined, date: Date): string;
+export declare function getDecadeLabel(
+  locale: string | undefined,
+  formatYear: ((locale: string | undefined, date: Date) => string) | undefined,
+  date: Date,
+): string;
 /**
  * Returns a boolean determining whether a given date is the current day of the week.
  *
